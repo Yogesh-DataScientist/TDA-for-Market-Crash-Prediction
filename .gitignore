@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# CatBoost training logs
+catboost_info/
+
+# Intermediate pipeline data (not needed by the app)
+data/market_data_raw.csv
+data/market_data_processed.csv
+data/market_data_labeled.csv
+data/market_data_tda.csv
+data/market_data_tda_pelt.csv
+data/market_data_tda_pelt_fixed.csv
+data/market_data_tda_pelt_hmm.csv
+data/test_predictions.csv
+data/threshold_analysis.csv
+data/model_evaluation.txt
+data/shap_summary.txt
+data/feature_importance.csv
+
+# Model files (not needed for the Streamlit dashboard)
+*.cbm
